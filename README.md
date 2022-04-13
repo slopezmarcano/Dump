@@ -21,4 +21,11 @@ To use (if data requirements are met 🚨), you only need to read your annotatio
 
 The output of my script looks like this ![alt text](https://github.com/slopezmarcano/Dump/blob/main/output_samples/001_annotation_heatmap_sampleoutput.png)
 
+Regions with red are areas with low annotation percentage. Overall, we want to see a good distribution of annotations across the entire frame, but depends on the species ecology.
 
+Hope you can use it, and good luck 🍀
+
+## 🚀 Script 002
+`in development`
+
+_teaser: rename all your computer vision detection files using random ids_
