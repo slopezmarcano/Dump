@@ -5,3 +5,8 @@
 .idea/misc.xml
 .idea/inspectionProfiles/profiles_settings.xml
 .idea/Dump.iml
+metadata_logbook.csv
+development/watchdog_monitor.py
+development/json_collection.py
+development/automated_reporting_scans.py
+development/automated_reporting_scans.py

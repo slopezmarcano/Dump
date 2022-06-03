@@ -25,7 +25,26 @@ Regions with red are areas with low annotation percentage. Overall, we want to s
 
 Hope you can use it, and good luck 🍀
 
-## 🚀 Script 002
-`in development`
+## 🚀 Script 002 and 003
+`002_watchdog_monitor.py` & `003_json_collection.py`
 
-_teaser: rename all your computer vision detection files using random ids_
+
+Fieldwork is a tedious but necessary task in environmental science. 
+Traditionally, all data collected is stored in hard drives or written down in notepads. I wanted to fix this! (or at least provide a sneak peek on how automation can help with this process).
+
+
+**💡My idea**: Auto-populate a metadata file with the survey_name, GPS lat and GPS long when doing 3D reconstructions.
+
+
+**📝The workflow**: Anytime a 3D reconstruction was uploaded to a cloud folder, then a python workflow would start and produce a csv file that included metadata files (already collected by our sensor).
+
+
+**🚨The sensor**: An Iphone 13 Pro with the 3d Scanner App
+
+
+**🛠How does it work?**: Using your Iphone, open the 3d Scanner App, then do the reconstruction. Once done and processed, share `All Data` to an iCloud folder and then inside the iCloud folder two python scripts will 1) Grab any zip folder with the reconstructions file and decompress it and 2) select the `info.json` (file that contains the metadata), extract the relevant information and then output a clean csv. 
+
+`002_watchdog_monitor.py`: a python script that has a watchdog. A watchdog is a monitoring system where you specify a folder to constantly observe. The watchdog has specific actions for created, modified, deleted or moved files.
+`003_json_collection.py`: a python script with a simple for loop that searches all info.json files (where metadata of the 3D reconstructions are stored), and then extract and output the key metadata values.
+
+Hope you can use it, and good luck 🍀
