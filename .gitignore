@@ -10,3 +10,4 @@ development/watchdog_monitor.py
 development/json_collection.py
 development/automated_reporting_scans.py
 development/automated_reporting_scans.py
+/.idea/workspace.xml

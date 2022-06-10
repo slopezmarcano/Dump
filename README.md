@@ -7,6 +7,8 @@
 A flexible repository that stores random R or Python code for different data science projects from Sebastian Lopez-Marcano.
 
 ## 🚀 Script 001
+_13042022_
+
 `001_annotation_heatmaps_FishID.R`
 
 Deep learning models, like fish object detection models require lots of training data. At FishID we have built models that have > 50,000 fish annotations 🤯. 
@@ -26,6 +28,8 @@ Regions with red are areas with low annotation percentage. Overall, we want to s
 Hope you can use it, and good luck 🍀
 
 ## 🚀 Script 002 and 003
+_03052022_
+
 `002_watchdog_monitor.py` & `003_json_collection.py`
 
 
@@ -46,5 +50,22 @@ Traditionally, all data collected is stored in hard drives or written down in no
 
 `002_watchdog_monitor.py`: a python script that has a watchdog. A watchdog is a monitoring system where you specify a folder to constantly observe. The watchdog has specific actions for created, modified, deleted or moved files.
 `003_json_collection.py`: a python script with a simple for loop that searches all info.json files (where metadata of the 3D reconstructions are stored), and then extract and output the key metadata values.
+
+Hope you can use it, and good luck 🍀
+
+## 🚀 Script 004 and 005
+_07062022_
+
+`004_renamefileusingcsvmap.py` & `005_renamifileusingcsvmap_subdirectories.py`
+
+
+ I have lost count of how many times I have needed to bulk rename files using a csv map. But, if you try to find simple resources for beginner python or R coders the documentation is underwhelming. Too many scripts and solutions that simply do not work. In the end (and because of time constraints)
+you end up manually renaming files or using the Finder bulk rename solution (MacOS users will know 😃). 
+ 
+To solve this gap, I present to you the simplest python script to bulk rename files using a csv map. The csv map contains two columns the `oldfilename` and the `newname`. Run this python script in the directory where the documents, images or videos are.
+Remember to create a backup and test the script first with a test dataset to make sure there are no errors. 
+The key assumption of this script is that all your videos are in one folder. 
+
+What happens if your documents,videos or images are in nested directories and you need to rename using the same method? Easy 😌! Use script `005_renamifileusingcsvmap_subdirectories.py`
 
 Hope you can use it, and good luck 🍀
