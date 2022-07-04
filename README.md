@@ -70,7 +70,7 @@ What happens if your documents,videos or images are in nested directories and yo
 Hope you can use it, and good luck 🍀
 
 ## 🚀 Script 006
-*07062022*
+_07062022_
 
 `006_selection_by_variables.py`
 

@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 #filename: a unique filename
 #species: is there 1 or multiple species in that video?
 #location: where was this video collected?
-#other columns
+#other ecological columns 
 
 videos = pd.read_csv('https://www.dropbox.com/s/985xt1wqw9fk1oh/testing_metadata.csv?dl=1')
 
