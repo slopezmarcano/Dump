@@ -58,7 +58,6 @@ _07062022_
 
 `004_renamefileusingcsvmap.py` & `005_renamifileusingcsvmap_subdirectories.py`
 
-
  I have lost count of how many times I have needed to bulk rename files using a csv map. But, if you try to find simple resources for beginner python or R coders the documentation is underwhelming. Too many scripts and solutions that simply do not work. In the end (and because of time constraints)
 you end up manually renaming files or using the Finder bulk rename solution (MacOS users will know 😃). 
  
@@ -67,5 +66,18 @@ Remember to create a backup and test the script first with a test dataset to mak
 The key assumption of this script is that all your videos are in one folder. 
 
 What happens if your documents,videos or images are in nested directories and you need to rename using the same method? Easy 😌! Use script `005_renamifileusingcsvmap_subdirectories.py`
+
+Hope you can use it, and good luck 🍀
+
+## 🚀 Script 006
+*07062022*
+
+`006_selection_by_variables.py`
+
+As we develop FishID, we are trying to find new ways to split data for training, evaluation and testing. The data splits for most AI projects are done randomly. But, FishID works with ecological data, and we wanted to introduce ecological components into the data split. In `006_selection_by_variables.py` I show how your program/software/code can split a dataset using ecological information (in my case: species data). 
+
+The simplest use of this script is: 'I want a random selection of videos. 10% of this selection I wanted to be for videos of single species and 90% of this selection I wanted to be for videos of multiple species'. 
+
+This is a powerful little script for eco-computer vision projects. 
 
 Hope you can use it, and good luck 🍀
