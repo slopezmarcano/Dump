@@ -4,7 +4,7 @@
 📧 s.lopez-marcano@griffith.edu.au
 
 ## ☀️ Summary
-A flexible repository that stores random R or Python code for different data science projects from Sebastian Lopez-Marcano.
+A flexible repository that stores random R or Python code for different data science projects from Sebastian Lopez-Marcano. Scripts are found in the `scripts` directory
 
 ## 🚀 Script 001
 _13042022_
@@ -70,7 +70,7 @@ What happens if your documents,videos or images are in nested directories and yo
 Hope you can use it, and good luck 🍀
 
 ## 🚀 Script 006
-_07062022_
+_07072022_
 
 `006_selection_by_variables.py`
 
